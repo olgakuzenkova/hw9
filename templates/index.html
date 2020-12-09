@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block title %} псевдоисследование {% endblock %}
+
+{% block content %}
+
+<main role="main" class="container">
+
+  <div class="starter-template">
+  <h1>с днём дня!</h1>
+    <h3>давайте попсевдоисследуем</h3>
+    <p class="lead">вам предстоит выбрать имена для предметов, которые вы увидите на картинках.<br>чтобы поучаствовать в исследовании, нажмите большую красивую кнопку<br><br>P.S. пожалуйста, не открывайте раздел "В чём суть?", пока не пройдёте опрос</p>
+  </div>
+  
+  <div class="container">
+    <a class="btn btn-outline-dark btn-lg btn-block" href={{ q }} role="button">Вот кнопка</a>
+    <a> <img src="static/hello.jpg" width="400" height="360" hspace="350" vspace="35"></a>
+  </div>
+
+</main>
+{% endblock %}
